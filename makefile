@@ -1,7 +1,7 @@
 all: exe run
 
-exe: tp5texturasAlunos.cpp RgbImage.cpp
-	g++ -o exe tp5texturasAlunos.cpp RgbImage.cpp -framework GLUT -framework OpenGL -Wno-deprecated
+exe: art_gallery.cpp RgbImage.cpp
+	g++ -o exe art_gallery.cpp RgbImage.cpp -framework GLUT -framework OpenGL -Wno-deprecated
 
 run: exe
 	./exe
